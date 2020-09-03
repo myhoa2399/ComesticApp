@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--    />-->
+
+
+    <FrameLayout
+        android:id="@+id/imgLoaiSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgCategory"
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:src="@drawable/innisfree1"/>
+
+        <TextView
+            android:id="@+id/cateName"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginVertical="200px"
+            android:background="#80767A7A"
+            android:fontFamily="cursive"
+            android:text="Skincare"
+            android:textAlignment="center"
+            android:textColor="#F1FAF9"
+            android:textSize="25dp" />
+
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_below="@+id/imgLoaiSP"/>
+
+
+
+
+    <!--    <ListView-->
+<!--        android:id="@+id/lv"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+</RelativeLayout>

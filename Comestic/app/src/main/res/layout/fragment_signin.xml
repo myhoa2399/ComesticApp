@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/original1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/icon_back"
+                android:stateListAnimator="@null" ></Button>
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/allura"
+                android:gravity="center_horizontal|center_vertical"
+                android:padding="20dp"
+                android:text="@string/signin"
+                android:textColor="@color/colorPrimary"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edittext_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtTitle"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="40dp"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="@string/username"
+                android:inputType="text"
+
+                android:padding="10dp"
+                android:textColorHighlight="#dce775"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edittext_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edittext_username"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/baseline_lock_black_24dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="@string/password_signin"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHighlight="#dce775"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/forgot_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edittext_password"
+                android:layout_marginLeft="60dp"
+                android:text="@string/forgot_pass"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/forgot_pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/signin"
+                android:textColor="#F4DBE4"
+                android:textCursorDrawable="@color/colorPrimary"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnSignIn"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/signup"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

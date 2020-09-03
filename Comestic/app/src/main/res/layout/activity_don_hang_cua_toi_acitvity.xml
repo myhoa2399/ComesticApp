@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".DonHangCuaToiAcitvity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_back"
+                android:stateListAnimator="@null"></Button>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="25px"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text="Đơn hàng của tôi"
+                android:textColor="#000000"
+                android:textSize="18sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_border_2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/don_hang_da_thanh_toan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:background="#FFFFFF"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text="Đã thanh toán"
+                android:textColor="#A19898"
+                android:textSize="18sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/don_hang_chua_thanh_toan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:textColor="#A19898"
+                android:text="Chưa thanh toán"
+                android:background="#FFFFFF"
+                android:textSize="18sp"></TextView>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <!--    Show nếu đơn hàng trống-->
+
+    <LinearLayout
+        android:id="@+id/empty_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Chưa có đơn hàng"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/order2106">
+
+        </ImageView>
+    </LinearLayout>
+</FrameLayout>

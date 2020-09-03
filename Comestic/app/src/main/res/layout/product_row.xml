@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/product"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="4dp"
+        android:id="@+id/carView">
+        <!--        FrameLayout... có thể nằm chồng lên nha-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imgSanPham"
+                    />
+
+                <TextView
+                    android:id="@+id/tenSP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/buenard_bold"
+                    android:gravity="center"
+                    android:text="Product name"
+                    android:textColor="#101010"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/gia_product_row"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Giá"
+                    android:textColor="#EF1818"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/priceProduct"
+                    android:textColor="#f20"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ForgotPassActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.5"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="5">
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/icon_back"
+                    android:stateListAnimator="@null" >
+
+                </Button>
+                <ImageView
+                    android:id="@+id/ImgForgotPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/forgot_pass">
+
+                </ImageView>
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/txtTitleForgot"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/chewy"
+                android:gravity="bottom|center"
+                android:text="Forgot Your Password ?"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtDes"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Enter your email below to reactive your account"
+                android:textColor="#151313"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <EditText
+                android:id="@+id/emailActiveAcc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:drawableStart="@drawable/baseline_email_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="youremail@service.com"
+                android:inputType="text"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHighlight="#dce775"
+                android:textColorHint="#A69D9D"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnSendPass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/colorPrimary"
+                android:text="SEND PASSWORD TO RESET LINK"
+                android:textColor="@color/cardview_light_background">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "241056072785",
+    "firebase_url": "https://comestic-ed724.firebaseio.com",
+    "project_id": "comestic-ed724",
+    "storage_bucket": "comestic-ed724.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241056072785:android:2c8e16f0ff78eaca79e470",
+        "android_client_info": {
+          "package_name": "com.example.comestic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241056072785-iutordjpmn38ofrct40t63o717kv7s5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.comestic",
+            "certificate_hash": "5c0129c938e1f67920a86ae23aa7b476c9b88cc3"
+          }
+        },
+        {
+          "client_id": "241056072785-895i0hqkh9e8chc2dhha0bqckb5bsq5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.comestic",
+            "certificate_hash": "d700642f593c4d22d51828265caf983f3143a778"
+          }
+        },
+        {
+          "client_id": "241056072785-2umm5qctst0i459ampehvi82ci94de0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmYzPOQTYkDXkKb3I2vTukQdM2lwqaOr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241056072785-2umm5qctst0i459ampehvi82ci94de0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

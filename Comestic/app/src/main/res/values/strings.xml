@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Comestic</string>
+    <string name="Open">Comestic</string>
+    <string name="Close">Comestic</string>
+    <string name="main">Main</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_account">Account</string>
+    <string name="nhap_tk">Nhập tài khoản</string>
+    <string name="nhap_pw">Nhập mật khẩu</string>
+    <string name="quenmatkhau">Quên mật khẩu ?</string>
+    <string name="btnDangnhap">Đăng nhập</string>
+    <string name="dangkitaikhoan">Bạn chưa có tài khoản? Hãy đăng kí.</string>
+    <string name="view_detail"><u>View Detail</u></string>
+    <string name="signup_hoten">Nhập họ và tên</string>
+    <string name="signup_diachi">Nhập địa chỉ</string>
+    <string name="signup_sdt"> Nhập số điện thoại</string>
+    <string name="signup_email">Nhập email</string>
+    <string name="signup_nhaplaimatkhau">Nhập lại mật khẩu</string>
+    <string name="signup_dangki">Đăng kí</string>
+    <string name="signup_dangnhaplai">Bạn đã có tài khoản? Hãy đăng nhập.</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--    <string name="signin">Sign In</string>-->
+    <!--    <string name="signup">Sign Up</string>-->
+    <!--    <string name="signup_name">Enter your name</string>-->
+    <!--    <string name="signup_address">Enter your address</string>-->
+    <!--    <string name="Exit">Exit</string>-->
+    <!--    <string name="signinagain">Sign In</string>-->
+    <!--    <string name="confirmpassword">Confirm your password</string>-->
+    <!--    <string name="enter_pass">Enter your password</string>-->
+    <!--    <string name="email">Email</string>-->
+    <!--    <string name="signup_phone">Phone number</string>-->
+    <!--    <string name="forgot_pass">Forgot password ?</string>-->
+    <!--    <string name="password_signin">Password</string>-->
+    <!--    <string name="username">Username</string>-->
+
+    <!--    <resources>-->
+    <!--        <string name="app_name">Comestic</string>-->
+    <!--        <string name="Open">Comestic</string>-->
+    <!--        <string name="Close">Comestic</string>-->
+    <!--        <string name="main">Main</string>-->
+    <!--        <string name="nav_home">Trang chủ</string>-->
+    <!--        <string name="nav_cart">Giỏ hàng</string>-->
+    <!--        <string name="nav_account">Tài khoản</string>-->
+    <!--        <string name="nhap_tk">Nhập tài khoản</string>-->
+    <!--        <string name="nhap_pw">Nhập mật khẩu</string>-->
+    <!--        <string name="quenmatkhau">Quên mật khẩu ?</string>-->
+    <!--        <string name="btnDangnhap">Đăng nhập</string>-->
+    <!--        <string name="dangkitaikhoan">Bạn chưa có tài khoản? Hãy đăng kí.</string>-->
+
+    <!--        <string name="signup_hoten">Nhập họ và tên</string>-->
+    <!--        <string name="signup_diachi">Nhập địa chỉ</string>-->
+    <!--        <string name="signup_sdt"> Nhập số điện thoại</string>-->
+    <!--        <string name="signup_email">Nhập email</string>-->
+    <!--        <string name="signup_nhaplaimatkhau">Nhập lại mật khẩu</string>-->
+    <!--        <string name="signup_dangki">Đăng kí</string>-->
+    <!--        <string name="signup_dangnhaplai">Bạn đã có tài khoản? Hãy đăng nhập.</string>-->
+
+    <!--        <string name="nav_header_title">Android Studio</string>-->
+    <!--        <string name="nav_header_subtitle">android.studio@android.com</string>-->
+    <!--        <string name="nav_header_desc">Navigation header</string>-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="signup_name">Enter your name</string>
+    <string name="signup_address">Enter your address</string>
+    <string name="Exit">Exit</string>
+    <string name="signinagain">Sign In</string>
+    <string name="confirmpassword">Confirm your password</string>
+    <string name="enter_pass">Enter your password</string>
+    <string name="email">Email</string>
+    <string name="signup_phone">Phone number</string>
+    <string name="forgot_pass">Forgot password ?</string>
+    <string name="password_signin">Password</string>
+    <string name="username">Username</string>
+    <string name="cart">Add to cart</string>
+    <string name="promo">Promotion</string>
+    <string name="account">Account</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="Name">NAME</string>
+
+
+    <!-- Chi tiết sản phẩm-->
+    <string name="tensanpham">Comestic</string>
+    <string name="gia">1.000.000</string>
+    <string name="chitietsanpham">Chi tiết sản phẩm</string>
+    <string name="bieudokichco">Size</string>
+    <string name="soluongsp">Số lượng</string>
+    <string name="thongtinsanpham">Comestic\nMang đến cho bạn một làn da mịn màng\n Chống lão hóa\n Trẻ hóa làn da\n Nguyên liệu từ thiên nhiên</string>
+    <string name="size7uk">7 UK</string>
+    <string name="size8uk">8 UK</string>
+    <string name="size9uk">9 UK</string>
+    <string name="size10uk">10 UK</string>
+    <string name="dathang">Thêm vào giỏ hàng</string>
+</resources>
+
